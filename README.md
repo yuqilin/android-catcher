@@ -63,7 +63,7 @@ task.period = "idle"
 比方说我要采集 applicationId 为 `video.like` 这个应用 10s 内的 cpu 信息和内存信息，采样间隔为 200ms，输出目录为当前目录，那么可以在脚本所在的目录执行以下命令
 
 ```
-python _main_.py -s 设备号-a video.like -f 0.2 -d 10 -i mem,cpu -o .
+python _main_.py -s 设备号 -a video.like -f 0.2 -d 10 -i mem,cpu -o .
 ```
 
 脚本运行结束之后可以在根目录下看到如下图所示的文件生成
